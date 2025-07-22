@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				event: {
+					primary: 'hsl(var(--event-primary))',
+					secondary: 'hsl(var(--event-secondary))',
+					success: 'hsl(var(--event-success))',
+					warning: 'hsl(var(--event-warning))',
+					info: 'hsl(var(--event-info))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
