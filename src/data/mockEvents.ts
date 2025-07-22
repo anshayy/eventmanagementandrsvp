@@ -216,6 +216,168 @@ export const mockEvents: Event[] = [
     capacity: 2000,
     registeredCount: 1834,
     tags: ['street art', 'graffiti', 'urban', 'free']
+  },
+  {
+    id: '9',
+    title: 'India Tech Summit 2024',
+    description: 'The largest technology conference in India featuring AI, blockchain, and digital transformation leaders from across the subcontinent.',
+    date: '2024-12-10',
+    time: '09:30',
+    location: {
+      city: 'Bangalore',
+      country: 'India',
+      venue: 'Bangalore International Exhibition Centre',
+      address: '10th Mile, Tumkur Road, Madavara Post, Bangalore 562123'
+    },
+    category: 'Technology',
+    image: '/api/placeholder/600/400',
+    price: {
+      amount: 12000,
+      currency: 'INR'
+    },
+    organizer: {
+      name: 'Tech India Foundation',
+      email: 'contact@techindia.org',
+      phone: '+91 80 2345 6789'
+    },
+    capacity: 8000,
+    registeredCount: 6234,
+    tags: ['tech', 'AI', 'blockchain', 'india', 'innovation']
+  },
+  {
+    id: '10',
+    title: 'DevOps & Cloud Computing Conference',
+    description: 'Deep dive into modern DevOps practices, cloud architecture, and container orchestration with industry experts.',
+    date: '2024-12-05',
+    time: '08:00',
+    location: {
+      city: 'Austin',
+      country: 'USA',
+      venue: 'Austin Convention Center',
+      address: '500 E Cesar Chavez St, Austin, TX 78701'
+    },
+    category: 'Technology',
+    image: '/api/placeholder/600/400',
+    price: {
+      amount: 399,
+      currency: 'USD'
+    },
+    organizer: {
+      name: 'Cloud Native Foundation',
+      email: 'events@cloudnative.org',
+      phone: '+1 (512) 555-0123'
+    },
+    capacity: 3000,
+    registeredCount: 2567,
+    tags: ['devops', 'cloud', 'containers', 'kubernetes', 'tech']
+  },
+  {
+    id: '11',
+    title: 'Mumbai Fintech Revolution',
+    description: 'Explore the future of financial technology in India with blockchain, digital payments, and cryptocurrency innovations.',
+    date: '2024-11-22',
+    time: '10:00',
+    location: {
+      city: 'Mumbai',
+      country: 'India',
+      venue: 'World Trade Center Mumbai',
+      address: 'Cuffe Parade, Mumbai 400005'
+    },
+    category: 'Technology',
+    image: '/api/placeholder/600/400',
+    price: {
+      amount: 8500,
+      currency: 'INR'
+    },
+    organizer: {
+      name: 'India Fintech Association',
+      email: 'info@indiafintech.com',
+      phone: '+91 22 6789 0123'
+    },
+    capacity: 2500,
+    registeredCount: 1890,
+    tags: ['fintech', 'blockchain', 'payments', 'cryptocurrency', 'mumbai']
+  },
+  {
+    id: '12',
+    title: 'Delhi Cultural Heritage Festival',
+    description: 'Celebrate India\'s rich cultural heritage with traditional music, dance performances, art exhibitions, and culinary experiences.',
+    date: '2024-12-18',
+    time: '16:00',
+    location: {
+      city: 'New Delhi',
+      country: 'India',
+      venue: 'Red Fort Complex',
+      address: 'Netaji Subhash Marg, Chandni Chowk, New Delhi 110006'
+    },
+    category: 'Art',
+    image: '/api/placeholder/600/400',
+    price: {
+      amount: 500,
+      currency: 'INR'
+    },
+    organizer: {
+      name: 'Cultural Heritage Society of India',
+      email: 'events@culturalheritage.in',
+      phone: '+91 11 2345 6789'
+    },
+    capacity: 10000,
+    registeredCount: 7892,
+    tags: ['culture', 'heritage', 'music', 'dance', 'delhi']
+  },
+  {
+    id: '13',
+    title: 'Cybersecurity & Data Privacy Summit',
+    description: 'Leading cybersecurity experts discuss emerging threats, data protection strategies, and the future of digital security.',
+    date: '2024-11-18',
+    time: '09:00',
+    location: {
+      city: 'London',
+      country: 'UK',
+      venue: 'ExCeL London',
+      address: 'One Western Gateway, Royal Victoria Dock, London E16 1XL'
+    },
+    category: 'Technology',
+    image: '/api/placeholder/600/400',
+    price: {
+      amount: 350,
+      currency: 'GBP'
+    },
+    organizer: {
+      name: 'Global Cybersecurity Alliance',
+      email: 'info@cybersecalliance.org',
+      phone: '+44 20 7890 1234'
+    },
+    capacity: 4000,
+    registeredCount: 3456,
+    tags: ['cybersecurity', 'privacy', 'data protection', 'tech', 'security']
+  },
+  {
+    id: '14',
+    title: 'Kolkata Book Fair & Literary Festival',
+    description: 'Asia\'s largest book fair featuring renowned authors, publishers, and literary discussions from around the world.',
+    date: '2024-12-12',
+    time: '11:00',
+    location: {
+      city: 'Kolkata',
+      country: 'India',
+      venue: 'Central Park Mela Ground',
+      address: 'Salt Lake City, Kolkata 700064'
+    },
+    category: 'Art',
+    image: '/api/placeholder/600/400',
+    price: {
+      amount: 200,
+      currency: 'INR'
+    },
+    organizer: {
+      name: 'Publishers & Booksellers Guild',
+      email: 'info@kolkatabookfair.org',
+      phone: '+91 33 2345 6789'
+    },
+    capacity: 25000,
+    registeredCount: 18567,
+    tags: ['books', 'literature', 'authors', 'kolkata', 'festival']
   }
 ];
 
@@ -240,5 +402,6 @@ export const countries = [
   'Denmark',
   'France',
   'Singapore',
-  'Australia'
+  'Australia',
+  'India'
 ];
